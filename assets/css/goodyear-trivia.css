@@ -1,0 +1,238 @@
+/*
+Theme Name: goodyear
+Version: 1.0
+Author: Febriansyah 2015
+UPDATE : Acit Jazz
+*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,900italic,900,700italic);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+p{
+	font-size:14px;
+	font-weight:300;
+	line-height:1.4;
+	margin:0 0 30px 0;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  outline:none;
+}
+.fr{
+	float:right;
+}
+.fl{
+	float:left;
+}
+.relative{
+	position:relative;
+}
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0s;
+	color:#1d5b9b;
+}
+h1,h2,h3,h4{
+	font-weight:700;
+}
+h3{
+	font-size:20px;
+}
+.yellow{
+	color:#fff000;
+}
+.grey{
+	color: #6b6b6b;
+}
+placeholder{
+	color: #333 !important;
+}
+::-webkit-input-placeholder {
+   color: #333 !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #333 !important;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #333 !important;  
+}
+
+:-ms-input-placeholder {  
+   color: #333 !important;  
+}
+/*---------------header--------------------*/
+header{
+	text-align:center;
+	padding:40px 0;
+	background:#1d5b9b;
+}
+.headertext{
+	padding:40px 0 20px 0;
+}
+.headertext p{
+	margin:0;
+}
+#footer{
+	padding:40px 0;
+	text-align:center;
+}
+/*-----------------FORM-------------------------*/
+form header {
+  margin: 0 0 20px 0; 
+}
+form header div {
+  font-size: 90%;
+  color: #999;
+}
+form header h2 {
+  margin: 0 0 5px 0;
+}
+form > div {
+  clear: both;
+  overflow: hidden;
+  padding: 1px;
+  margin: 0 0 10px 0;
+}
+form > div > fieldset > div > div {
+  margin: 0 0 5px 0;
+}
+form > div > label,
+legend {
+	width: 25%;
+  float: left;
+  padding-right: 10px;
+}
+form > div > div,
+form > div > fieldset > div {
+  width: 75%;
+  float: right;
+}
+form > div > fieldset label {
+	font-size: 90%;
+}
+fieldset {
+	border: 0;
+  padding: 0;
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+textarea {
+	width: 100%;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding:10px;
+}
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password] {
+  width: 100%;
+  margin:0 0 20px 0;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #4697e4;
+}
+.button{
+	background:#1d5b9b;
+	color:#fff;
+	text-transform:uppercase;
+	display:inline-block;
+	padding:0 30px;
+	line-height:40px;
+	height:40px;
+	border:none;
+	cursor:pointer;
+	font-size:18px;
+}
+.button:hover{
+	background:#06F;
+}
+@media (max-width: 600px) {
+  form > div {
+    margin: 0 0 15px 0; 
+  }
+  form > div > label,
+  legend {
+	  width: 100%;
+    float: none;
+    margin: 0 0 5px 0;
+  }
+  form > div > div,
+  form > div > fieldset > div {
+    width: 100%;
+    float: none;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  textarea,
+  select {
+    width: 100%; 
+  }
+}
+@media (min-width: 1200px) {
+  form > div > label,
+	legend {
+  	text-align: right;
+  }
+}
